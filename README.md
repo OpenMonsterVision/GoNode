@@ -1,6 +1,33 @@
 # GoNode
 Implementing things in node vs Go
+### Prisoner
+https://www.hackerrank.com/challenges/save-the-prisoner/problem
 
+A jail has N  prisoners, and each prisoner has a unique id number, S , ranging from 1  to N. There are M sweets that must be distributed to the prisoners.
+
+The jailer decides the fairest way to do this is by sitting the prisoners down in a circle (ordered by ascending S ), and then, starting with some random S, distribute one candy at a time to each sequentially numbered prisoner until all  candies are distributed. For example, if the jailer picks prisoner S, then his distribution order would be  until all  sweets are distributed.
+
+But wait—there's a catch—the very last sweet is poisoned! Can you find and print the ID number of the last prisoner to receive a sweet so he can be warned?
+
+Input Format
+
+The first line contains an integer, , denoting the number of test cases. 
+The  subsequent lines each contain  space-separated integers: 
+N (the number of prisoners), M (the number of sweets), and S (the prisoner ID), respectively.
+
+
+dustyPrisoner.go
+```
+real    0m0.274s
+user    0m0.215s
+sys    0m0.080s
+```
+dustyPrisoner.js
+```
+real    0m0.385s
+user    0m0.350s
+sys    0m0.033s
+```
 ### Sleeping Barber
 As appears on Wiki:
 ``` python
