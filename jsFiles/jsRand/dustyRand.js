@@ -1,4 +1,4 @@
-#!env node
+#!/usr/local/bin/node
 min = process.argv[2]
 max = process.argv[3]
 minone = parseInt(min) - 1
@@ -18,4 +18,8 @@ function getRandomInt(min, max) {
                     i++;
         }
         }
+
+a = a.filter(function( element ) {
+       return element !== undefined;
+});
 console.log(a)
