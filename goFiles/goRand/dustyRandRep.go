@@ -1,11 +1,10 @@
 package main
 
-import "time"
-import "fmt"
-import "math/rand"
-
-//import "unique"
-//import _ "github.com/KyleBanks/go-kit/unique"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 func unqInts(input []int) []int {
 	u := make([]int, 0, len(input))
