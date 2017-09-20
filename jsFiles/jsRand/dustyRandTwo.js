@@ -3,7 +3,7 @@ min = process.argv[2]
 max = process.argv[3]
 minone = parseInt(min) - 1
 maxone = parseInt(max) + 1
-console.log(min + max)
+//console.log(min + max)
 function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
